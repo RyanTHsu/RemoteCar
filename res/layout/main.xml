@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.54" >
+
+        <EditText
+            android:id="@+id/et_back"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_x="170dp"
+            android:layout_y="220dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="216" />
+
+        <EditText
+            android:id="@+id/et_right"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="210dp"
+            android:layout_y="150dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="108" />
+
+        <EditText
+            android:id="@+id/et_left"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="35dp"
+            android:layout_y="150dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="108" />
+
+        <EditText
+            android:id="@+id/et_front"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_x="175dp"
+            android:layout_y="90dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="216" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="200dp"
+            android:layout_y="270dp"
+            android:text="@string/speed" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="110dp"
+            android:layout_y="220dp"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_x="80dp"
+            android:layout_y="150dp"
+            android:text="@string/left" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="160dp"
+            android:layout_y="150dp"
+            android:text="@string/right" />
+
+        <EditText
+            android:id="@+id/et_delay"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_x="200dp"
+            android:layout_y="290dp"
+            android:ems="10"
+            android:text="@string/s3" android:inputType="number"/>
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_x="200dp"
+            android:layout_y="335dp"
+            android:text="@string/quit" />
+
+        <Button
+            android:id="@+id/auto_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="30dp"
+            android:text="@string/mode" />
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="100dp"
+            android:layout_y="90dp"
+            android:text="@string/forward" />
+
+        <Button
+            android:id="@+id/btn_brain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="330dp"
+            android:text="@string/brain" />
+
+        <TextView
+            android:id="@+id/tv_brain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="310dp"
+            android:text="@string/brain_state" />
+
+        <TextView
+            android:id="@+id/tv_bresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="106dp"
+            android:layout_y="342dp"
+            android:text="TextView" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
